@@ -1,0 +1,22 @@
+{
+  "name": "crud-app",
+  "version": "1.0.0",
+  "description": " Simple application to Create, Read, Update, and Delete (CRUD) entries in a MongoDB database using Mongoose.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
